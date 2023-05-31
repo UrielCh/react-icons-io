@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { IoIosAddCircleOutline } from "https://deno.land/x/react_icons_io@1.0.1/mod.ts"`
+```ts
+import { IoIosAddCircleOutline } from "https://deno.land/x/react_icons_io@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { IoIosAddCircleOutline } from "react-icons/io"`
+```ts
+import { IoIosAddCircleOutline } from "react-icons/io"
+```
 
 ## minimal import
 
-`import { IoIosAddCircleOutline } from "react-icons/io/IoIosAddCircleOutline.ts"`
+```ts
+import { IoIosAddCircleOutline } from "react-icons/io/IoIosAddCircleOutline.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import IoIosAddCircleOutline from "react-icons/io/IoIosAddCircleOutline.ts"`
+```ts
+import IoIosAddCircleOutline from "react-icons/io/IoIosAddCircleOutline.ts"
+```
 
