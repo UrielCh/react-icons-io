@@ -15,20 +15,29 @@
  * ```json
  * {
  *   "imports": {
- *     "preact": "https://esm.sh/preact@10.15.1",
+ *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/io": "https://deno.land/x/react_icons_io@1.0.0//mod.ts",
+ *     "react-icons/io":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-io@1.0.1/mod.ts",
+ *     "react-icons/io/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-io/ico/",
  *   }
  * }
  * ```
  * 
  * ## Direct import sample
  * 
- * `import { IoIosAddCircleOutline } from "https://deno.land/x/react_icons_io@1.0.0/mod.ts"`
+ * `import { IoIosAddCircleOutline } from "https://deno.land/x/react_icons_io@1.0.1/mod.ts"`
  * 
  * ## import_map import sample
  * 
  * `import { IoIosAddCircleOutline } from "react-icons/io"`
+ * 
+ * ## minimal import
+ * 
+ * `import { IoIosAddCircleOutline } from "react-icons/io/IoIosAddCircleOutline.ts"`
+ * 
+ * ## minimal import default
+ * 
+ * `import IoIosAddCircleOutline from "react-icons/io/IoIosAddCircleOutline.ts"`
  * 
  * @module
  */
