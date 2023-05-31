@@ -17,7 +17,7 @@
  *   "imports": {
  *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/io":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-io@1.0.2/mod.ts",
+ *     "react-icons/io":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-io@1.0.3/mod.ts",
  *     "react-icons/io/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-io/ico/",
  *   }
  * }
@@ -26,7 +26,7 @@
  * ## Direct import sample
  * 
  * ```ts
- * import { IoIosAddCircleOutline } from "https://deno.land/x/react_icons_io@1.0.2/mod.ts"
+ * import { IoIosAddCircleOutline } from "https://deno.land/x/react_icons_io@1.0.3/mod.ts"
  * ```
  * 
  * ## import_map import sample
