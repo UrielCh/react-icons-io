@@ -8,39 +8,56 @@
 
 [See available icons here](https://react-icons.deno.dev/io)
 
-## import_map.json
+## install packahe
 
-For a transparent usage:
-
-```json
-{
-  "imports": {
-    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
-    "preact": "npm:preact@10.22.1",
-    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
-    "preact/hooks": "npm:preact@10.22.1/hooks",
-    "react-icons/io": "jsr:@preact-icons/io@^1.0.11/mod.ts",
-    "react-icons/io/": "jsr:@preact-icons/io@^1.0.11/ico/",
-  }
-}
+```bash
+deno add @preact-icons/io
+dnpx jsr add @preact-icons/io
+pnpm dlx jsr add @preact-icons/io
+bunx jsr add @preact-icons/io
 ```
 
-## Import an icon without import_map by and afer loading all icons from the lib io
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
 
-```ts
-import { IoIosAddCircleOutline } from "jsr:preact-icons/io@1.0.11/mod.ts"
+
+# Ionicons 4 icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/io)](https://jsr.io/@preact-icons/io)
+
+**License** [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE)
+
+**Project** [https://ionicons.com/](https://ionicons.com/)
+
+[See available icons here](https://react-icons.deno.dev/io)
+
+## install packahe
+
+```bash
+deno add @preact-icons/io
+dnpx jsr add @preact-icons/io
+pnpm dlx jsr add @preact-icons/io
+bunx jsr add @preact-icons/io
 ```
 
-## import_map import an icon from all icons
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
+
+
+## import an icon from all icons
 
 ```ts
-import { IoIosAddCircleOutline } from "react-icons/io"
+import { IoIosAddCircleOutline } from "@preact-icons/io"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { IoIosAddCircleOutline } from "react-icons/io/IoIosAddCircleOutline.ts"
+import { IoIosAddCircleOutline } from "react-icons/io/IoIosAddCircleOutline"
 ```
 
 or using default export
