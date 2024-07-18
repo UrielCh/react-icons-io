@@ -42,5 +42,5 @@ import { IoIosAddCircleOutline } from "react-icons/io/IoIosAddCircleOutline"
 or using default export
 
 ```ts
-import IoIosAddCircleOutline from "react-icons/io/IoIosAddCircleOutline.ts"
+import IoIosAddCircleOutline from "react-icons/io/IoIosAddCircleOutline"
 ```
