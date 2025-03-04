@@ -2,7 +2,7 @@
   "lock": false,
   "name": "@preact-icons/io",
   "license": "MIT",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
     "./IoIosAdd": "./ico/IoIosAdd.ts",
